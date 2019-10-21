@@ -1,4 +1,6 @@
 # FaceRecognition-tensorflow
-基于TensorFlow训练的人脸识别神经网络
+Using Tensorflow to construct a face recognition neural network.
 
-文章地址：http://tumumu.cn/2017/05/02/deep-learning-face/
+Download a dataset of photos of others and preprocess them in the otherfaces.py.
+Then take photo of yourself in the my_faces.py.
+After train_cnn.py, you can reognize yourself in the is_me.py file.
